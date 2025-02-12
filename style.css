@@ -98,6 +98,15 @@ body{
     display: none;
 }
 
+.auteur{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
 
 @media (max-width: 480px) {
     .card {
@@ -116,5 +125,9 @@ body{
     .col {
         width: 100%;
         justify-content: center;
+    }
+    .auteur {
+        flex-direction: column;
+        text-align: center;
     }
 }
